@@ -1,6 +1,5 @@
-import { useState } from "react";
 import emailjs from "emailjs-com";
-import React from "react";
+import React, { useState } from "react";
 
 const initialState = {
   name: "",
@@ -144,16 +143,6 @@ export const Contact = (props) => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div id="footer">
-        <div className="container text-center">
-          <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
-          </p>
         </div>
       </div>
     </div>
